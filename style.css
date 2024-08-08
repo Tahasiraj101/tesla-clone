@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'lato';
+    src: url('Lato-Black.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'lato';
+    
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(Homepage-Model-3-Desktop-US.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 20px;
+     width: 8vw;
+    height: 8vh; 
+    color: white;
+}
+
+.header{
+    margin: 20px 0 0 0; 
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 25px;
+}
+.nav ul li a{
+    font-size: 1vw;
+    text-decoration: none;
+    color: white;
+
+}
+.nav ul li a:hover{
+    color: #0000;
+  background: 
+    linear-gradient(90deg,#1095c1 50%,#000 0) 
+    var(--_p,100%)/200% no-repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+  transition: 1s ease-in-out;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+    margin: 20px 20px 0 0;
+    align-items: center;
+   
+}
+.icons i{
+    cursor: pointer;
+    color: white;
+}
+.icons i:hover{
+    color: #0000;
+  background: 
+    linear-gradient(90deg,#1095c1 50%,#000 0) 
+    var(--_p,100%)/200% no-repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+  transition: 1s ease-in-out;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content h1{
+    color: white;
+    font-size: 4.5vw;
+    font-weight: 500;
+}
+.content h1:hover{
+    color: #0000;
+    background: 
+      linear-gradient(90deg,#1095c1 50%,#000 0) 
+      var(--_p,100%)/200% no-repeat;
+    -webkit-background-clip: text;
+            background-clip: text;
+    transition: 1s ease-in-out; 
+    cursor: pointer;
+}
+.content p{
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1.5vw;
+    text-align: center;
+    line-height: 1.5;
+}
+.content p:hover{
+    color: #0000;
+    background: 
+      linear-gradient(90deg,#1095c1 50%,#000 0) 
+      var(--_p,100%)/200% no-repeat;
+    -webkit-background-clip: text;
+            background-clip: text;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+.first-button{
+    margin-top: 25%;
+    margin-bottom: 5%;
+}
+.first-button .first-bla{
+    padding: 0.8vw 7vw;
+    background-color: #3E6AE1;
+    color: white;
+    border: #3E6AE1 1px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1vw;
+    
+}
+.first-button .first-bla:hover{
+    color: #0000;
+    background: 
+      linear-gradient(90deg,#1095c1 50%,#000 0) 
+      var(--_p,100%)/200% no-repeat;
+    -webkit-background-clip: text;
+            background-clip: text;
+    transition: 1.5s ease-in-out;
+    cursor: pointer;
+     
+    
+    
+}
+.first-button .second-bla {
+    padding: 0.7vw 7vw;
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    border: #fff 1px solid;
+    border-radius: 4px;
+}
+.first-button .second-bla:hover{
+    color: #fff;
+    background: 
+      linear-gradient(90deg,#1095c1 50%,#000 0) 
+      var(--_p,100%)/200% no-repeat;
+    -webkit-background-clip: text;
+            background-clip: text;
+    transition: 1.5s ease-in-out;
+    cursor: pointer;
+   
+   
+    
+}
+.button{
+   margin-top: 30%;
+   margin-bottom: 5%;
+}
+.button a{
+    padding: 0.8vw 7vw;
+    background-color: #3E6AE1;
+    color: white;
+    border: #3E6AE1 1px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.button a:hover{
+    background-color: #fff;
+    color: #000;
+    border: #fff solid;
+    border-radius: 4px;
+    transition: all 1s ease-in-out;
+}
+
+.button .bla{
+    padding: 0.8vw 7vw;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: white 1px solid;
+    border-radius: 4px;
+}
+.button .bla:hover{
+    background-color: #3E6AE1;
+    color: #fff;
+    border: #3E6AE1 solid;
+    border-radius: 4px;
+    transition: all 1s ease-in-out;
+}
+.first-pg{
+    height: 100%;
+    background-image: url(Homepage-Model-Y-Desktop-US-v2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-pg{
+    height: 100%;
+    background-image: url(Homepage-Model-X-Desktop-US.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third-pg{
+    height: 100%;
+    background-image: url(Homepage-Model-S-Desktop-US.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourth-pg{
+    height: 100%;
+    background-image: url(Homepage-Cybertruck-Desktop.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fifth-pg{
+    height: 100%;
+    background-image: url(Homepage-SolarPanels-01-Desktop.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.six-pg{
+    height: 100%;
+    background-image: url(Homepage-SolarRoof-Desktop-US.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seven-pg{
+    height: 100%;
+    background-image: url(Homepage-Powerwall-Desktop-US.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eight-pg{
+    height: 100%;
+    background-image: url(Homepage-Accessories-Desktop-US.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fotter{
+    
+    height: 90%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fotter p{
+    margin: 2% 25% 0 25%;
+    line-height: 1.5;
+    color: white;
+    font-weight: 300;
+    font-size: 1vw;
+    word-spacing: 2px;
+    text-align: center;
+    
+}
+.last-text {
+    margin: 1% 22% 2% 22%;
+display: flex;
+justify-content: space-evenly;
+
+}
+.last-text li a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1vw;
+    font-weight: 300;
+}
